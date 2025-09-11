@@ -5,6 +5,13 @@ public class Feeder {
      * in the constructor and always greater than or equal to zero
      */
     private int currentFood;
+    public Feeder(int food)
+    {
+        currentFood = food;
+    }
+    public int getCurrentFood(){
+        return currentFood;
+    }
 
     /**
      * Simulates one day with numBirds birds or possibly a bear at the bird
@@ -19,8 +26,7 @@ public class Feeder {
      * feeder in this simulation, as described in part (b) Preconditions:
      * numBirds > 0, numDays > 0
      */
-    public int simulateManyDays(int numBirds, int numDays) 
-    {
+    public int simulateManyDays(int numBirds, int numDays) {
         return 0;
     }
 
