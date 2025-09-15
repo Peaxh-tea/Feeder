@@ -1,9 +1,8 @@
-public class Main
-{
+public class Main {
     public static void main(String[] args) {
         Feeder f = new Feeder(500);
         System.out.println(f);
         System.out.println(f.getCurrentFood());
-        System.out.println(((int) (Math.random() * 10) + 9));
+        System.out.println((int) (Math.random() * 41) + 10);
     }
 }
