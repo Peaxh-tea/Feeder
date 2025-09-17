@@ -39,9 +39,8 @@ public class Feeder {
             simulateOneDay(numBirds);
             numDays--;
             days++;
-            return days;
         }
-        return 0;
+        return days;
     }
 
 }
